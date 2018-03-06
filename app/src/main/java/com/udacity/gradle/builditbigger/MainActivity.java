@@ -5,6 +5,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.os.AsyncTask;
 import android.os.Bundle;
+import android.support.test.espresso.IdlingResource;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Pair;
 import android.view.Menu;
@@ -31,8 +32,6 @@ import receita.com.br.mylibrary.MainLibraryActivity;
 public class MainActivity extends AppCompatActivity {
 
     private Joker joker;
-    private TextView myName;
-    private boolean isName = false;
     private ProgressBar progressBar;
 
 
@@ -69,9 +68,11 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void tellJoke(View view) {
-      new EndpointsAsyncTask().execute(new Pair<Context, Boolean>(this, (BuildConfig.FLAVOR.equals("free") ? true : false ) ));
+        new EndpointsAsyncTask().execute(new Pair<Context, Boolean>(this, (BuildConfig.FLAVOR.equals("free") ? true : false)));
 
     }
+
+
 
 
     class EndpointsAsyncTask extends AsyncTask<Pair<Context, Boolean>, Void, String> {
@@ -119,11 +120,14 @@ public class MainActivity extends AppCompatActivity {
 
         @Override
         protected void onPostExecute(String result) {
+
             progressBar.setVisibility(View.INVISIBLE);
             Intent it = new Intent(context, MainLibraryActivity.class);
             it.putExtra("JOKE", joker.getFreeJoker());
             startActivity(it);
         }
     }
-
+    public IdlingResource getIdlingResource() {
+        return null;
+    }
 }

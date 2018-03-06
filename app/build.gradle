@@ -62,8 +62,19 @@ dependencies {
     compile project(':javaJokes')
     compile project(':mylibrary')
     compile 'com.github.frankiesardo:icepick:2.3.6'
+
     androidTestImplementation('com.android.support.test.espresso:espresso-core:2.2.2', {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
+    compile 'com.android.support.test.espresso:espresso-idling-resource:2.2.2'
+    // Testing-only dependencies
+    androidTestCompile 'com.android.support:support-annotations:25.1.0'
+    androidTestCompile 'com.android.support.test.espresso:espresso-core:2.2.2'
+    androidTestCompile 'com.android.support.test.espresso:espresso-intents:2.2.2'
+    androidTestCompile 'com.android.support.test:rules:0.5'
+    androidTestCompile 'com.android.support.test:runner:0.5'
+
+
+
     testImplementation 'junit:junit:4.12'
 }
