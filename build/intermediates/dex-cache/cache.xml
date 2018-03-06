@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/Paulo/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/31432acc0689790707f7848187b75017/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="26"
+        optimize="true"
+        revision="26.0.3"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/Paulo/Documents/nanodegrees/gradle/ud867/FinalProject/app/build/intermediates/transforms/preDex/free/release/17/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Paulo/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/46de28762a6579ec05fd9cd5f4467b7b/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="26"
+        optimize="true"
+        revision="26.0.3"
+        sha1="f97cf85b0fe70d37a705111dafa6b1b418ea1650">
+        <dex dex="/Users/Paulo/Documents/nanodegrees/gradle/ud867/FinalProject/app/build/intermediates/transforms/preDex/free/release/20/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Paulo/.gradle/caches/modules-2/files-2.1/com.google.http-client/google-http-client-android/1.23.0/1bbe77a8594d7892571266392b8a7dd0a5980664/google-http-client-android-1.23.0.jar"
+        jumboMode="false"
+        min-sdk-version="26"
+        optimize="true"
+        revision="26.0.3"
+        sha1="1bbe77a8594d7892571266392b8a7dd0a5980664">
+        <dex dex="/Users/Paulo/Documents/nanodegrees/gradle/ud867/FinalProject/app/build/intermediates/transforms/preDex/free/release/5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Paulo/.gradle/caches/modules-2/files-2.1/com.github.frankiesardo/icepick/2.3.6/c67092eec40738c16bdc5b9255a59c295cc16219/icepick-2.3.6.jar"
+        jumboMode="false"
+        min-sdk-version="26"
+        optimize="true"
+        revision="26.0.3"
+        sha1="c67092eec40738c16bdc5b9255a59c295cc16219">
+        <dex dex="/Users/Paulo/Documents/nanodegrees/gradle/ud867/FinalProject/app/build/intermediates/transforms/preDex/free/release/1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Paulo/Documents/nanodegrees/gradle/ud867/FinalProject/javaJokes/build/libs/javaJokes.jar"
+        jumboMode="false"
+        min-sdk-version="26"
+        optimize="true"
+        revision="26.0.3"
+        sha1="13e3cd47e0c7a53bb5690acab5204ae35a12e7de">
+        <dex dex="/Users/Paulo/Documents/nanodegrees/gradle/ud867/FinalProject/app/build/intermediates/transforms/preDex/free/release/37/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Paulo/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.3/fd32786786e2adb664d5ecc965da47629dca14ba/commons-codec-1.3.jar"
+        jumboMode="false"
+        min-sdk-version="26"
+        optimize="true"
+        revision="26.0.3"
+        sha1="fd32786786e2adb664d5ecc965da47629dca14ba">
+        <dex dex="/Users/Paulo/Documents/nanodegrees/gradle/ud867/FinalProject/app/build/intermediates/transforms/preDex/free/release/34/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Paulo/.gradle/caches/modules-2/files-2.1/com.android.support.constraint/constraint-layout-solver/1.0.2/b9cd8fc6bd15cb915735d34535db30ece0c44603/constraint-layout-solver-1.0.2.jar"
+        jumboMode="false"
+        min-sdk-version="26"
+        optimize="true"
+        revision="26.0.3"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="/Users/Paulo/Documents/nanodegrees/gradle/ud867/FinalProject/app/build/intermediates/transforms/preDex/free/release/25/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Paulo/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/929f4029a57a70dab714561aeeb6fc02/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="26"
+        optimize="true"
+        revision="26.0.3"
+        sha1="2442771a5590dd4eb4bce00c2e9dca9e22e4c963">
+        <dex dex="/Users/Paulo/Documents/nanodegrees/gradle/ud867/FinalProject/app/build/intermediates/transforms/preDex/free/release/22/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Paulo/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/6f407866c3c8ec2ecdeb38d668c52d14/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="26"
+        optimize="true"
+        revision="26.0.3"
+        sha1="f428e2fbc9ed0b297e3a3f420e51e6982f66822d">
+        <dex dex="/Users/Paulo/Documents/nanodegrees/gradle/ud867/FinalProject/app/build/intermediates/transforms/preDex/free/release/3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Paulo/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.0.1/e813b8722c387b22e1adccf7914729db09bcb4a9/httpcore-4.0.1.jar"
+        jumboMode="false"
+        min-sdk-version="26"
+        optimize="true"
+        revision="26.0.3"
+        sha1="e813b8722c387b22e1adccf7914729db09bcb4a9">
+        <dex dex="/Users/Paulo/Documents/nanodegrees/gradle/ud867/FinalProject/app/build/intermediates/transforms/preDex/free/release/32/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Paulo/.gradle/caches/modules-2/files-2.1/com.android.support/support-annotations/26.1.0/814258103cf26a15fcc26ecce35f5b7d24b73f8/support-annotations-26.1.0.jar"
+        jumboMode="false"
+        min-sdk-version="26"
+        optimize="true"
+        revision="26.0.3"
+        sha1="0814258103cf26a15fcc26ecce35f5b7d24b73f8">
+        <dex dex="/Users/Paulo/Documents/nanodegrees/gradle/ud867/FinalProject/app/build/intermediates/transforms/preDex/free/release/23/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Paulo/.gradle/caches/modules-2/files-2.1/com.google.guava/guava-jdk5/17.0/463f8378feba44df7ba7cd9272d01837dad62b36/guava-jdk5-17.0.jar"
+        jumboMode="false"
+        min-sdk-version="26"
+        optimize="true"
+        revision="26.0.3"
+        sha1="463f8378feba44df7ba7cd9272d01837dad62b36">
+        <dex dex="/Users/Paulo/Documents/nanodegrees/gradle/ud867/FinalProject/app/build/intermediates/transforms/preDex/free/release/24/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Paulo/Documents/nanodegrees/gradle/ud867/FinalProject/mylibrary/build/intermediates/intermediate-jars/release/classes.jar"
+        jumboMode="false"
+        min-sdk-version="26"
+        optimize="true"
+        revision="26.0.3"
+        sha1="3cb0681b7b57925d17400bc803928c8a1a299a1d">
+        <dex dex="/Users/Paulo/Documents/nanodegrees/gradle/ud867/FinalProject/app/build/intermediates/transforms/preDex/free/release/38/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Paulo/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-11.8.0.aar/fc2764b18111aa07ac81ce29328c2025/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="26"
+        optimize="true"
+        revision="26.0.3"
+        sha1="24cb9bae5fbe94df0f55d87452a291b69a2f22bf">
+        <dex dex="/Users/Paulo/Documents/nanodegrees/gradle/ud867/FinalProject/app/build/intermediates/transforms/preDex/free/release/11/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Paulo/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient/4.0.1/1d7d28fa738bdbfe4fbd895d9486308999bdf440/httpclient-4.0.1.jar"
+        jumboMode="false"
+        min-sdk-version="26"
+        optimize="true"
+        revision="26.0.3"
+        sha1="1d7d28fa738bdbfe4fbd895d9486308999bdf440">
+        <dex dex="/Users/Paulo/Documents/nanodegrees/gradle/ud867/FinalProject/app/build/intermediates/transforms/preDex/free/release/30/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Paulo/.gradle/caches/modules-2/files-2.1/android.arch.core/common/1.0.0/a2d487452376193fc8c103dd2b9bd5f2b1b44563/common-1.0.0.jar"
+        jumboMode="false"
+        min-sdk-version="26"
+        optimize="true"
+        revision="26.0.3"
+        sha1="a2d487452376193fc8c103dd2b9bd5f2b1b44563">
+        <dex dex="/Users/Paulo/Documents/nanodegrees/gradle/ud867/FinalProject/app/build/intermediates/transforms/preDex/free/release/36/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Paulo/.gradle/caches/transforms-1/files-1.1/play-services-ads-11.8.0.aar/886bd9402d24a86367a0857f2a1886e0/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="26"
+        optimize="true"
+        revision="26.0.3"
+        sha1="aeca0a0ab86831ec59a54723205ce9341ac22d1b">
+        <dex dex="/Users/Paulo/Documents/nanodegrees/gradle/ud867/FinalProject/app/build/intermediates/transforms/preDex/free/release/2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Paulo/.gradle/caches/modules-2/files-2.1/com.google.http-client/google-http-client-jackson2/1.23.0/fd6761f4046a8cb0455e6fa5f58e12b061e9826e/google-http-client-jackson2-1.23.0.jar"
+        jumboMode="false"
+        min-sdk-version="26"
+        optimize="true"
+        revision="26.0.3"
+        sha1="fd6761f4046a8cb0455e6fa5f58e12b061e9826e">
+        <dex dex="/Users/Paulo/Documents/nanodegrees/gradle/ud867/FinalProject/app/build/intermediates/transforms/preDex/free/release/7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Paulo/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/3d08d9d6cb7a656c90655c205dcb6269/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="26"
+        optimize="true"
+        revision="26.0.3"
+        sha1="6f4138a4e065826cb044d49faea4cfd7191773d1">
+        <dex dex="/Users/Paulo/Documents/nanodegrees/gradle/ud867/FinalProject/app/build/intermediates/transforms/preDex/free/release/16/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Applications/Android Studio.app/Contents/gradle/m2repository/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar"
+        jumboMode="false"
+        min-sdk-version="26"
+        optimize="true"
+        revision="26.0.3"
+        sha1="5043bfebc3db072ed80fbd362e7caf00e885d8ae">
+        <dex dex="/Users/Paulo/Documents/nanodegrees/gradle/ud867/FinalProject/app/build/intermediates/transforms/preDex/free/release/33/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Paulo/.gradle/caches/modules-2/files-2.1/android.arch.lifecycle/common/1.0.0/e414a4cb28434e25c4f6aa71426eb20cf4874ae9/common-1.0.0.jar"
+        jumboMode="false"
+        min-sdk-version="26"
+        optimize="true"
+        revision="26.0.3"
+        sha1="e414a4cb28434e25c4f6aa71426eb20cf4874ae9">
+        <dex dex="/Users/Paulo/Documents/nanodegrees/gradle/ud867/FinalProject/app/build/intermediates/transforms/preDex/free/release/35/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Paulo/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/61f665a4dcf64cc72385a8b22ad1dd7e/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="26"
+        optimize="true"
+        revision="26.0.3"
+        sha1="508f50705b4fde51a16259f29c854201a3044516">
+        <dex dex="/Users/Paulo/Documents/nanodegrees/gradle/ud867/FinalProject/app/build/intermediates/transforms/preDex/free/release/19/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Paulo/.gradle/caches/modules-2/files-2.1/com.google.api-client/google-api-client/1.23.0/522ea860eb48dee71dfe2c61a1fd09663539f556/google-api-client-1.23.0.jar"
+        jumboMode="false"
+        min-sdk-version="26"
+        optimize="true"
+        revision="26.0.3"
+        sha1="522ea860eb48dee71dfe2c61a1fd09663539f556">
+        <dex dex="/Users/Paulo/Documents/nanodegrees/gradle/ud867/FinalProject/app/build/intermediates/transforms/preDex/free/release/4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Paulo/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/b61a20ceed0a1e29653a4ad249ec8832/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="26"
+        optimize="true"
+        revision="26.0.3"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="/Users/Paulo/Documents/nanodegrees/gradle/ud867/FinalProject/app/build/intermediates/transforms/preDex/free/release/10/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Paulo/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/79df6ac5eb3e6f0ed21ff0f62c287316/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="26"
+        optimize="true"
+        revision="26.0.3"
+        sha1="233f60a165ae622c8b36731502ebbda0f65e1930">
+        <dex dex="/Users/Paulo/Documents/nanodegrees/gradle/ud867/FinalProject/app/build/intermediates/transforms/preDex/free/release/21/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Paulo/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/cedc2b8bbc88d17fa1f81f9bb267667a/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="26"
+        optimize="true"
+        revision="26.0.3"
+        sha1="40392f30a601db5675cdf18192aab013d6fee6ec">
+        <dex dex="/Users/Paulo/Documents/nanodegrees/gradle/ud867/FinalProject/app/build/intermediates/transforms/preDex/free/release/15/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Paulo/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.8.0.aar/0fb3ae52451b9fb17419e07a8efb40a9/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="26"
+        optimize="true"
+        revision="26.0.3"
+        sha1="5ad3911825107d8dd4b017fdecebfd23c08048dd">
+        <dex dex="/Users/Paulo/Documents/nanodegrees/gradle/ud867/FinalProject/app/build/intermediates/transforms/preDex/free/release/13/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Paulo/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.1.3/f6c3aed1cdfa21b5c1737c915186ea93a95a58bd/jackson-core-2.1.3.jar"
+        jumboMode="false"
+        min-sdk-version="26"
+        optimize="true"
+        revision="26.0.3"
+        sha1="f6c3aed1cdfa21b5c1737c915186ea93a95a58bd">
+        <dex dex="/Users/Paulo/Documents/nanodegrees/gradle/ud867/FinalProject/app/build/intermediates/transforms/preDex/free/release/29/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Paulo/.gradle/caches/modules-2/files-2.1/com.google.http-client/google-http-client/1.23.0/8e86c84ff3c98eca6423e97780325b299133d858/google-http-client-1.23.0.jar"
+        jumboMode="false"
+        min-sdk-version="26"
+        optimize="true"
+        revision="26.0.3"
+        sha1="8e86c84ff3c98eca6423e97780325b299133d858">
+        <dex dex="/Users/Paulo/Documents/nanodegrees/gradle/ud867/FinalProject/app/build/intermediates/transforms/preDex/free/release/8/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Paulo/.gradle/caches/transforms-1/files-1.1/play-services-gass-11.8.0.aar/8a5d2c3b5a4e96bc18043d11ad747925/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="26"
+        optimize="true"
+        revision="26.0.3"
+        sha1="a7760a45a6c9f425aaa43ef391a8cf28a8bcb4a1">
+        <dex dex="/Users/Paulo/Documents/nanodegrees/gradle/ud867/FinalProject/app/build/intermediates/transforms/preDex/free/release/12/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Paulo/.gradle/caches/modules-2/files-2.1/com.google.oauth-client/google-oauth-client/1.23.0/e57ea1e2220bda5a2bd24ff17860212861f3c5cf/google-oauth-client-1.23.0.jar"
+        jumboMode="false"
+        min-sdk-version="26"
+        optimize="true"
+        revision="26.0.3"
+        sha1="e57ea1e2220bda5a2bd24ff17860212861f3c5cf">
+        <dex dex="/Users/Paulo/Documents/nanodegrees/gradle/ud867/FinalProject/app/build/intermediates/transforms/preDex/free/release/6/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Paulo/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.1/f7be08ec23c21485b9b5a1cf1654c2ec8c58168d/jsr305-3.0.1.jar"
+        jumboMode="false"
+        min-sdk-version="26"
+        optimize="true"
+        revision="26.0.3"
+        sha1="f7be08ec23c21485b9b5a1cf1654c2ec8c58168d">
+        <dex dex="/Users/Paulo/Documents/nanodegrees/gradle/ud867/FinalProject/app/build/intermediates/transforms/preDex/free/release/9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Paulo/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/ae8251987035081c78382b2b1e3ff4b5/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="26"
+        optimize="true"
+        revision="26.0.3"
+        sha1="7efef32744ca4a436492d5cf28c08698cc2af256">
+        <dex dex="/Users/Paulo/Documents/nanodegrees/gradle/ud867/FinalProject/app/build/intermediates/transforms/preDex/free/release/18/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Paulo/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/f50070175ceb449645501aa488b6328f/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="26"
+        optimize="true"
+        revision="26.0.3"
+        sha1="b62fdc4cfef174c1e456014195c83fa7de7dc041">
+        <dex dex="/Users/Paulo/Documents/nanodegrees/gradle/ud867/FinalProject/app/build/intermediates/transforms/preDex/free/release/31/classes.dex" />
+    </item>
+
+</items>
