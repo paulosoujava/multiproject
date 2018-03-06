@@ -10,6 +10,9 @@
     android:orientation="vertical"
     tools:context=".MainActivityFragment">
 
+
+
+
     <TextView
         android:id="@+id/instructions_text_view"
         android:layout_width="wrap_content"
@@ -22,7 +25,8 @@
         android:layout_below="@+id/instructions_text_view"
         android:onClick="tellJoke"
         android:text="@string/button_text"
-        tools:ignore="OnClick" />
+        tools:ignore="OnClick"
+        android:layout_marginBottom="@dimen/margin_20"/>
 
 
     <com.google.android.gms.ads.AdView

@@ -14,6 +14,11 @@ public class Joker {
         return jokes.get(r.nextInt(jokes.size()));
     }
 
+    public String getFreeJoker() {
+        initFreeJoker();
+        return jokes.get(r.nextInt(jokes.size()));
+    }
+
     private void initJoker() {
         jokes = new ArrayList<>();
         jokes.add("1-Batman pegou seu bat-sapato social e seu bat-blazer,aonde ele foi?A um Bat-zado");
@@ -36,5 +41,15 @@ public class Joker {
         jokes.add("18-Para que serve óculos marrom ?Para ver marromenos...");
         jokes.add("19-Por que a mulher do Hulk divorciou-se dele ?Porque ela queria um homem mais maduro...");
         jokes.add("20-Por que o jacaré tirou o jacarezinho da escola?Porque ele réptil de ano.");
+    }
+
+
+    private void initFreeJoker() {
+        jokes = new ArrayList<>();
+        jokes.add("1-Batman pegou seu bat-sapato social e seu bat-blazer,aonde ele foi?A um Bat-zado");
+        jokes.add("2-Dois litros de leite atravessaram a rua e foram atropelados.. Um morreu, o outro não, por quê? Por que um deles era Longa Vida");
+        jokes.add("3-Porque o elefante nao pega fogo? Porque ele já é cinza");
+        jokes.add("4-O que dá o cruzamento de pão, queijo e um macaco? X-panzé");
+        jokes.add("5-O que o cavalo foi fazer no orelhão?Passar um trote");
     }
 }

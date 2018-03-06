@@ -1,5 +1,6 @@
 package com.udacity.gradle.builditbigger;
 
+import android.app.Fragment;
 import android.content.Context;
 import android.content.Intent;
 import android.os.AsyncTask;
@@ -9,6 +10,8 @@ import android.util.Pair;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.ProgressBar;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.google.api.client.extensions.android.http.AndroidHttp;
@@ -16,6 +19,8 @@ import com.google.api.client.extensions.android.json.AndroidJsonFactory;
 import com.google.api.client.googleapis.services.AbstractGoogleClientRequest;
 import com.google.api.client.googleapis.services.GoogleClientRequestInitializer;
 import com.udacity.gradle.builditbigger.backend.myApi.MyApi;
+
+import org.w3c.dom.Text;
 
 import java.io.IOException;
 
@@ -26,12 +31,16 @@ import receita.com.br.mylibrary.MainLibraryActivity;
 public class MainActivity extends AppCompatActivity {
 
     private Joker joker;
+    private TextView myName;
+    private boolean isName = false;
+    private ProgressBar progressBar;
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        progressBar = findViewById(R.id.progress);
         joker = new Joker();
 
     }
@@ -60,13 +69,12 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void tellJoke(View view) {
-        Intent it = new Intent(this, MainLibraryActivity.class);
-        it.putExtra("JOKE", joker.getJoker());
-        startActivity(it);
+      new EndpointsAsyncTask().execute(new Pair<Context, Boolean>(this, (BuildConfig.FLAVOR.equals("free") ? true : false ) ));
 
     }
 
-    class EndpointsAsyncTask extends AsyncTask<Pair<Context, String>, Void, String> {
+
+    class EndpointsAsyncTask extends AsyncTask<Pair<Context, Boolean>, Void, String> {
         private MyApi myApiService = null;
         private Context context;
 
@@ -74,12 +82,13 @@ public class MainActivity extends AppCompatActivity {
         @Override
         protected void onPreExecute() {
             super.onPreExecute();
-            Toast.makeText(context, "Please wait..", Toast.LENGTH_LONG).show();
+            progressBar.setVisibility(View.VISIBLE);
         }
 
         @Override
-        protected String doInBackground(Pair<Context, String>... params) {
-            if(myApiService == null) {  // Only do this once
+        protected String doInBackground(Pair<Context, Boolean>... params) {
+
+            if (myApiService == null) {  // Only do this once
                 MyApi.Builder builder = new MyApi.Builder(AndroidHttp.newCompatibleTransport(),
                         new AndroidJsonFactory(), null)
                         // options for running against local devappserver
@@ -98,10 +107,11 @@ public class MainActivity extends AppCompatActivity {
             }
 
             context = params[0].first;
-            String name = params[0].second;
+            Boolean paidOrFree = params[0].second;
 
             try {
-                return myApiService.sayHi(name).execute().getData();
+                return myApiService.tellJoke(paidOrFree).execute().getData();
+
             } catch (IOException e) {
                 return e.getMessage();
             }
@@ -109,8 +119,9 @@ public class MainActivity extends AppCompatActivity {
 
         @Override
         protected void onPostExecute(String result) {
+            progressBar.setVisibility(View.INVISIBLE);
             Intent it = new Intent(context, MainLibraryActivity.class);
-            it.putExtra("JOKE", result );
+            it.putExtra("JOKE", joker.getFreeJoker());
             startActivity(it);
         }
     }

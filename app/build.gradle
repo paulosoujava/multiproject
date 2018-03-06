@@ -38,16 +38,14 @@ android {
         free {
             applicationId "com.udacity.gradle.flavors.free"
             dimension "paid_free"
-            minSdkVersion 26
-            targetSdkVersion 27
+            dependencies {
+                implementation 'com.google.android.gms:play-services-ads:11.8.0'
+            }
+
         }
         paid {
             applicationId "com.udacity.gradle.flavors.paid"
             dimension "paid_free"
-
-            dependencies{
-                implementation 'com.google.android.gms:play-services-ads:11.8.0'
-            }
         }
     }
 
