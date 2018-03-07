@@ -1,6 +1,7 @@
 package com.udacity.gradle.builditbigger.backend;
 
 /** The object model for the data we are sending through endpoints */
+@SuppressWarnings("ALL")
 public class MyBean {
 
     private String myData;

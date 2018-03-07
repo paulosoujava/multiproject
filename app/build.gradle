@@ -36,15 +36,12 @@ android {
 
     productFlavors {
         free {
-            applicationId "com.udacity.gradle.flavors.free"
+            applicationIdSuffix = ".free"
             dimension "paid_free"
-            dependencies {
-                implementation 'com.google.android.gms:play-services-ads:11.8.0'
-            }
 
         }
         paid {
-            applicationId "com.udacity.gradle.flavors.paid"
+            applicationIdSuffix = ".paid"
             dimension "paid_free"
         }
     }
@@ -59,9 +56,11 @@ dependencies {
     implementation 'com.google.api-client:google-api-client:1.23.0'
     implementation 'com.google.http-client:google-http-client-android:1.23.0'
     implementation 'com.google.code.findbugs:jsr305:3.0.1'
-    compile project(':javaJokes')
-    compile project(':mylibrary')
-    compile 'com.github.frankiesardo:icepick:2.3.6'
+
+    freeImplementation 'com.google.android.gms:play-services-ads:11.8.0'
+
+
+    compile project(':mylibrary')  //this is my module, the joke get by endpoint is javaJokes
 
     androidTestImplementation('com.android.support.test.espresso:espresso-core:2.2.2', {
         exclude group: 'com.android.support', module: 'support-annotations'
