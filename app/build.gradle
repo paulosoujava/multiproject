@@ -61,7 +61,7 @@ dependencies {
 
 
     compile project(':mylibrary')  //this is my module, the joke get by endpoint is javaJokes
-
+    compile project(':backend')
     androidTestImplementation('com.android.support.test.espresso:espresso-core:2.2.2', {
         exclude group: 'com.android.support', module: 'support-annotations'
     })

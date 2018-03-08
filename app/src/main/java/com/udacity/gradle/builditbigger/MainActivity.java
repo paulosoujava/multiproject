@@ -15,7 +15,7 @@ import com.udacity.gradle.builditbigger.backend.myApi.MyApi;
 import receita.com.br.mylibrary.MainLibraryActivity;
 
 
-@SuppressWarnings("ALL")
+
 public class MainActivity extends AppCompatActivity implements OnTaskCompleted {
 
     private ProgressBar progressBar;
