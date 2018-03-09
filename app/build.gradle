@@ -58,7 +58,7 @@ dependencies {
     implementation 'com.google.code.findbugs:jsr305:3.0.1'
 
     freeImplementation 'com.google.android.gms:play-services-ads:11.8.0'
-    implementation "com.android.support:multidex:1.0.3"
+
 
     compile project(':mylibrary')  //this is my module, the joke get by endpoint is javaJokes
     compile project(':backend')
